@@ -1,39 +1,56 @@
 
-p{
-    font-size: 18px;
-}
-H4{
-    font-size: larger;
-    color: black;
+*{
+    margin: 0px;
 }
 
-
-.blog{
-    margin: 10px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
-    font-size: 18PX;
-    text-align: justify;
+.banner{
+    display: flex;
+    height: 700px;
+    width: 1920px;
+    /* width: 100%; */
+    background-color: #e5547326;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.first{
-    background-color:rgb(250, 235, 215);
+.banner-info{
+    width: 500px;
+    margin-left: 150px;
+}
+.banner-title{
+    font-size: 60px;
+
 }
 
-.second{
-    background-color: aquamarine;
+.banner-description{
+    margin-top: 25px;
+    font-size: 17px;
+
 }
 
-.third{
-    background-color:rgba(95, 158, 160, 0.637);
+.btn{
+    background-color:#E55473 ;
+    margin-top: 20px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
 }
 
-.d_four{
-    background-color:rgba(0, 139, 139, 0.481)
+.btn:hover{
+    background-color:rgba(0, 0, 0, 0.769) ;
+
+
 }
 
-li{
-    color:indigo;
-    font-size: 16px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.banner-pic{
+    margin-right: 350px;
+    padding-top: 105px;
+
+    
+}
+
+.banner-image1{
+    height: 600px;
+
 }
